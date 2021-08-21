@@ -1,0 +1,130 @@
+#galeria {
+    width: 700px;
+    margin: auto;
+    padding: 50px;
+    list-style: none;
+}
+#galeria li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: solid 5px #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+}
+
+#galeria li span {
+    opacity: 0;
+    font-size:9pt;
+    line-height: 370px;
+}
+
+#galeria li:hover span {
+    opacity: 1;
+}
+
+#galeria li:hover {
+    transform: scale(1.5);
+    transition: all .3s ease-in;
+}
+
+#galeria li#foto1{
+    background: url("../_image/foto1.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #fff;
+}
+
+#galeria li#foto1:hover {
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+
+#galeria li#foto2{
+    background: url("../_image/foto2.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #fff;
+}
+
+#galeria li#foto2:hover {
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+
+
+#galeria li#foto3{
+    background: url("../_image/foto3.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #fff;
+}
+
+#galeria li#foto3:hover {
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+
+
+#galeria li#foto4{
+    background: url("../_image/foto4.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #fff;
+}
+
+#galeria li#foto4:hover {
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+
+#galeria li#foto5:hover {
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+
+#galeria li#foto5{
+    background: url("../_image/foto5.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #fff;
+}
+
+#galeria li#foto6{
+    background: url("../_image/foto6.jpg");
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #fff;
+}
+
+#galeria li#foto6:hover {
+    background-position: 0% 0%;
+    background-size: 200px 200px;
+}
+
+#audio{
+    border-top: 1px solid #606060;
+    margin-top: 450px;
+
+}
+
+#fundo{
+    background:url("../_image/note.png") no-repeat;
+    width: 690px;
+    height: 400px;
+    margin-left: 170px; 
+}
+
+#musica {
+    position: relative;
+    left: 575px;
+    top: 230px;
+}
+
+#filme{
+    position: relative;
+    right: -121px;
+    top: 42px;
+    width: 410px;
+}

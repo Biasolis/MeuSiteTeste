@@ -1,0 +1,186 @@
+/* configuração do elemento body */
+body{    
+  background-color: #A9A9A9; /* cor de fundo */
+  font-family: Arial, Helvetica, sans-serif; /* fonte */
+  color: #d3d3d3; /* cor do texto */
+} 
+
+/* configuração do elemento com id conteúdo */
+#container {
+  background-color: #000; /* cor de fundo */
+  width: 1000px; /* largura */
+  margin: 0px auto 0px auto;/* espaçamento externo*/
+  /* caixa com sombra */
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+  padding: 20px /* espaçamento interno */
+}
+
+/*  configuração do elemento com id cabeçalho */
+#cabecalho{
+  height: 150px; /* altura */
+  border-bottom: 1px solid; /* linha embaixo */
+  /* imagem de fundo */
+  background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 80px;
+}
+
+/* configuração da lista do menu */
+#menu ul{
+    list-style: none; /* some os marcadores da lista */
+    text-transform: uppercase; /* letra maiúscula */
+    float: right; /* flutuar para direita */
+}
+
+#menu ul li {
+  display: inline-block; /* itens aparecem tudo na mesma linha */
+  background-color: #d3d3d3; /* altera a cor de fundo */
+  padding: 10px; /* espaçamento interno */
+  margin: 5px; /* espaçamento externo */
+}
+
+#menu ul li:hover {
+  background-color: #606060; /* altera a cor de fundo */
+  color: #fff; /* altera cor */
+  transition: background .5s; /* 1s para transição de background */
+}
+
+#menu ul a{
+  color: #000; /* cor*/
+  text-decoration: none; /* link sem sublinhado */
+}
+
+#icone {
+  position: relative; /* posição atual da foto */
+  top: 25px; /* desloca para cima < 0 */
+  left: 10px; /* desloca para direita */
+}
+
+/* configura h1 do header */
+#cabecalho h1{
+  
+  font-size: 20pt;
+  color: #d3d3d3;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+/* configura h2 do header */
+#cabecalho h2{
+  font-size: 10pt;
+  color: #d3d3d3;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+
+#corpo {
+  width: px;
+  /*float: left; /* flutuar */
+  /*border-right: 1px solid #606060;*/
+  padding: 0px 15px 0px 15px;
+  float: center;
+
+}
+
+#corpo h2{
+  color:#000; 
+}
+
+#video{
+  float: left;
+  margin-bottom: 10px;
+}
+
+#mais{
+  float: left; 
+  width: 300px;
+  margin: 100px 0px 0px 50px;
+}
+
+#sobress{
+  float: right;
+  width: 400px;
+  margin:50px 30px 0px 0px;
+}
+
+#tabela{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#noticia h2{
+  background-color: #ddd;
+  font-size: 12pt;
+  padding: 5px 0px  5px 0px; /*interno*/
+  margin: 10px 0px 10px 0px; /*externo*/
+}
+
+#lateral{
+  float: right;
+  width: 300px;
+  padding: 10px;
+  background-color: #ddd;
+  margin-top: 10px;
+}
+
+#rodape{
+ clear: both; /* procura a primeira regiao livre em baixo e para a esquerda*/
+ border-top: 1px solid #606060;
+}
+
+#rodape p{
+  padding-top: 15px;
+  text-align: center;
+}
+
+#noticia h3{
+  font-size: 9pt;
+  color: #606060
+}
+
+#noticia h1{
+  font-size: 20pt
+  color: #606060;
+}
+
+#lateral h1{
+  font-size: 20pt;
+  color: #606060;
+  margin-top: 0px; /* espaçamento externo superior */
+}
+
+#lateral h2{
+  font-size: 15px;
+  color: #fff;
+  padding: 5px;
+  background-color: #606060; /* background voce personalisa o fundo com uma foto, mais opçoes de fundo, background-color apenas com cor */
+}
+
+/* elemento p */
+p{
+  text-align: justify;
+  text-indent: 50px;
+}
+
+.foto-legenda{
+  position: relative;
+  border:0px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foto-legenda img{
+  width: 50%;
+  height: 50%;
+}
+
+#frame{
+  width: 400px;
+  height: 400px;
+  border: none;
+  margin-left: 40px; 
+}
+
+#marca{
+  width: 500px;
+  height: 400px;
+}
