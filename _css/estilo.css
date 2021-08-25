@@ -1,13 +1,13 @@
 /* configuração do elemento body */
 body{    
-  background-color: #A9A9A9; /* cor de fundo */
+  background-color: #FFFFF0; /* cor de fundo */
   font-family: Arial, Helvetica, sans-serif; /* fonte */
-  color: #d3d3d3; /* cor do texto */
+  color: #000000; /* cor do texto */
 } 
 
 /* configuração do elemento com id conteúdo */
 #container {
-  background-color: #000; /* cor de fundo */
+  background-color: #FFDAB9; /* cor de fundo */
   width: 1000px; /* largura */
   margin: 0px auto 0px auto;/* espaçamento externo*/
   /* caixa com sombra */
@@ -32,13 +32,13 @@ body{
 
 #menu ul li {
   display: inline-block; /* itens aparecem tudo na mesma linha */
-  background-color: #d3d3d3; /* altera a cor de fundo */
+  background-color: #FFFFF0; /* altera a cor de fundo */
   padding: 10px; /* espaçamento interno */
   margin: 5px; /* espaçamento externo */
 }
 
 #menu ul li:hover {
-  background-color: #606060; /* altera a cor de fundo */
+  background-color: #FFFFF0; /* altera a cor de fundo */
   color: #fff; /* altera cor */
   transition: background .5s; /* 1s para transição de background */
 }
@@ -138,7 +138,7 @@ body{
 }
 
 #noticia h1{
-  font-size: 20pt
+  font-size: 20pt;
   color: #606060;
 }
 
